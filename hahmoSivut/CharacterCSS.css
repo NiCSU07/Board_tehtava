@@ -1,0 +1,52 @@
+body {
+    margin: auto 10px;
+    padding: 0;
+    width: auto;
+    height: 2000px;
+    background-color: whitesmoke;
+}
+
+#images {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#arrow {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #000000; 
+    width: 90%;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
+    height: 1000px;
+    padding-top: 1px;
+}
+
+header {
+    width: 90%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px;
+    background-image: url("../kuvat/barArt.png");
+    color: white;
+}
+
+#returnButton {
+    padding: 1%;
+}
+
+footer {
+    text-align: center;
+    width: 80%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    color: white;
+    background: black;
+    margin: 20px;
+}
