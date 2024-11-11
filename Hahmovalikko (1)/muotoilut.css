@@ -1,5 +1,4 @@
 body {
-    background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
     background-image: url(Kuvat/taustakuva.jpg);
@@ -13,12 +12,12 @@ body {
 }
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    background-image: url(Kuvat/titleTausta);
+    font-family: cursive;
+    color: #000000;
+    background-image: url(Kuvat/otsikkotausta);
     background-size: cover;
-    border: 6px solid #fcd80d;
-    border-radius: 8px;
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
 .character-select {
@@ -29,11 +28,12 @@ h1 {
 }
 
 .character {
-    background-color: rgb(47, 8, 110);
-    border: 2px solid #ffffff;
-    border-radius: 8px;
-    padding: 20px;
-    width: 120px;
+    background-color: rgb(221, 85, 21);
+    border: 6px solid #000000;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 140px;
     cursor: pointer;
     height: 225px;
     flex-direction: column;
@@ -47,11 +47,16 @@ h1 {
 }
 
 .character h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffffff;
+    font-family: cursive;
+    color: #8b1414;
     margin: 10px 0 0 0;
+    text-decoration:none;
 }
 
 .character:hover {
-    border-color: #ff0000;
+    border-color: #b61111;
+}
+
+.character.bison {
+    margin-left: 200px;
 }
