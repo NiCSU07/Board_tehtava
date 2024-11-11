@@ -15,7 +15,7 @@ body {
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #ffffff;
-    background-image: url(Kuvat/kuva);
+    background-image: url(Kuvat/titleTausta);
     background-size: cover;
     border: 6px solid #fcd80d;
     border-radius: 8px;
