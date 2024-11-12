@@ -13,7 +13,7 @@ body {
 
 h1 {
     font-family: cursive;
-    color: #000000;
+    color: #ffffff;
     background-image: url(Kuvat/otsikkotausta);
     background-size: cover;
     border: 6px solid rgb(0, 0, 0);
@@ -28,7 +28,7 @@ h1 {
 }
 
 .character {
-    background-color: rgb(221, 85, 21);
+    background-color: #bd1d1d;
     border: 6px solid #000000;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -47,8 +47,8 @@ h1 {
 }
 
 .character h2 {
-    font-family: cursive;
-    color: #8b1414;
+    font-family: Brush Script MT, Brush Script Std, cursive	;
+    color: #ffffff;
     margin: 10px 0 0 0;
     text-decoration:none;
 }
