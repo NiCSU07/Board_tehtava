@@ -3,7 +3,8 @@ body {
     padding: 0;
     width: auto;
     height: 2000px;
-    background-color: whitesmoke;
+    background-color: #9a2d2d;;
+    font-family: Verdana, sans-serif;
 }
 
 #images {
@@ -19,19 +20,20 @@ body {
 }
 
 .text {
-    color: #000000; 
+    color: #ffffff; 
     width: 90%;
-    border: 3px solid rgb(0, 0, 0);
+    border: 10px solid rgb(0, 0, 0);
     padding: 10px;
     margin: 20px;
     text-align: left;
     height: 500px;
     padding-top: 1px;
     font-size: larger;
+    background-color: rgb(191, 85, 46);
 }
 
 header {
-    width: 90%;
+    width: 100%;
     border: 1px solid rgb(0, 0, 0);
     padding: 1px;
     background-image: url("../kuvat/barArt.png");
