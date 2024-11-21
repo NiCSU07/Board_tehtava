@@ -1,3 +1,8 @@
 document.getElementById('submitButton').addEventListener('click', function() {
-    window.location.href = 'vastaus.html';
+    var feedback = document.getElementById('feedback').value;
+    if (feedback) {
+        window.location.href = 'vastaus.html';
+    } else {
+        alert('Ole hyvä ja anna palautetta ennen lähettämistä.');
+    }
 });
