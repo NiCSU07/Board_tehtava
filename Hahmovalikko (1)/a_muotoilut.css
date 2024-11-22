@@ -1,5 +1,5 @@
 body {
-    background-image: url(Kuvat/kiitos-kuva);
+    background-image: url(Kuvat/kiitos-kuva.jpeg);
     background-size: cover;
 }
 
@@ -8,7 +8,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 945px;
+    height: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
 }
 
 footer {
@@ -20,4 +22,11 @@ footer {
     background: black;
     margin: 20px;
     margin-left: 200px;
+}
+
+#returnButton {
+    width: 500px;
+    height: 300px;
+    margin-left: 650px;
+    margin-top: 50px;
 }
